@@ -1,0 +1,31 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+  }
+  body {
+    line-height: 1.6;
+    font-size: 1.6rem;
+    font-family: var(--primary-font);
+    direction: rtl;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+    outline: none;
+  }
+  a {
+    color: var(--dark-color);
+    text-decoration: none;
+    transition: all 400ms ease;
+  }
+  a:hover {
+    color: #1e83f0;
+  }
+  
+  i {
+    user-select: none;
+  }
+  input{
+    font-family: var(--primary-font);
+  }
